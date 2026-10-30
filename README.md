@@ -8,7 +8,7 @@ Linux and macOS support amd64 and arm64; Windows supports amd64 where the releas
 
 ```yaml
 - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-- uses: code-grapher/setup-codegrapher@5fa970fd7613399567fdc8e60cfca63647450668
+- uses: code-grapher/setup-codegrapher@caac0a5f4ffa83d842eed23494b74605b0bb5f3a
   with:
     version: v0.16.0
 - run: codegrapher --version
