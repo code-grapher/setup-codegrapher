@@ -41,6 +41,10 @@ try {
     }
     $name = if ($osName -eq 'windows') { 'codegrapher.exe' } else { 'codegrapher' }
     $source = Join-Path $extract $name
+    if ($archive -eq $legacy) {
+        $legacyDir = "codegrapher_${version}_${osName}_${arch}"
+        $source = Join-Path (Join-Path $extract $legacyDir) $name
+    }
     if (-not (Test-Path -LiteralPath $source -PathType Leaf)) { throw 'binary missing from archive' }
     $destination = Join-Path $env:RUNNER_TEMP ("codegrapher-bin-" + [guid]::NewGuid())
     New-Item -ItemType Directory -Path $destination | Out-Null
