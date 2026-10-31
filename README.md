@@ -17,3 +17,5 @@ Linux and macOS support amd64 and arm64; Windows supports amd64 where the releas
     version: v0.16.0
 - run: codegrapher --version
 ```
+
+Self-hosted runners need PowerShell (`pwsh`); Unix runners also need `tar` and `chmod`.
