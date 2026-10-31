@@ -1,6 +1,6 @@
 # setup-codegrapher
 
-[![Watch the CodeGrapher product video](assets/product-video.webp)](https://youtu.be/LQ5ls_C4hOE)
+[![Watch the CodeGrapher product video](assets/product-video-play.svg)](https://youtu.be/LQ5ls_C4hOE)
 
 [Watch the CodeGrapher product video](https://youtu.be/LQ5ls_C4hOE)
 
